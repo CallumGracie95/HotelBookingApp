@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./",
+        "./cp3407_app"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
+}

@@ -1,0 +1,9 @@
+<!-- index.html -->
+{% extends "base.html" %} {% block title %}Home Page{% endblock title %} {%
+block content %}
+<div x-data="{ message: 'Hello Alpine!' }">
+  <h1>Welcome to Our Hotel Management System</h1>
+  <p x-text="message"></p>
+  <!-- Additional content and HTMX examples can go here -->
+</div>
+{% endblock content %}
